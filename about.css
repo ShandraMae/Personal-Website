@@ -1,0 +1,109 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(174, 61, 183, 0.58);
+}
+.about-features {
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.about-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.about-text {
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.about-icon {
+  top: 214px;
+  left: 81px;
+  width: 66px;
+  height: 61px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.about-icon2 {
+  top: 344px;
+  left: 87px;
+  width: 53px;
+  height: 64px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.about-text01 {
+  top: 325px;
+  left: 176px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Georgia;
+}
+.about-text05 {
+  top: 193px;
+  left: 187px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Georgia;
+}
+.about-icon4 {
+  top: 509px;
+  left: 80px;
+  width: 59px;
+  height: 57px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.about-text08 {
+  top: 516px;
+  left: 158px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Georgia;
+}
+.about-navlink {
+  top: 51px;
+  left: 46px;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Overpass;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.about-navlink1 {
+  top: 46px;
+  right: 66px;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Overpass;
+  font-weight: 700;
+  text-decoration: underline;
+}
+@media(max-width: 991px) {
+  .about-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .about-heading-container {
+    width: 100%;
+  }
+}
